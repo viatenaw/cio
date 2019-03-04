@@ -1,14 +1,78 @@
-.App {
+.PlayerInfo {
+  width: 50%;
+  margin: 0 auto;
+}
+.container-fluid.infoList {
+  width: 50%;
+  float: left;
+}
+span.badge.badge-primary.badge-pill {
+  width: 40%;
+  height: 4em;
+}
+
+/*<<<<<<<<<< TextAREA>>>>>>>>> */
+
+/* textarea#PublishText {
+  width: 100%;
+  box-shadow: -4px 3px 13px 0px #57704480;
+} */
+strong#PublishPostLabel {
+  background-color: #d0e0e147;
+  text-shadow: -2px 1px 12px #2e2d2d;
+  font-size: x-large;
+}
+
+/*<<<<<<<<<< TextAREA>>>>>>>>> */
+p.value {
+  font-size: 2.5em;
+  margin-top: 7.4%;
+}
+img.col-4.playerDP {
+  background-color: #5182bf0a;
+  box-shadow: inset 4px -1px 3px #5186c329;
+}
+img.col-8.playerCover {
+  background-color: #5182bf0a;
+  box-shadow: inset -2px -2px 5px 0px #728db530;
+}
+
+@media screen and (min-width: 480px) {
+  img#playerCoverHome {
+    display: none;
+  }
+}
+.unorderedListInfoItem {
+  background-color: honeydew;
+  background-blend-mode: difference;
+  box-shadow: -7px -5px 12px #12626f3b;
+}
+button.property.btn.btn-info {
+  height: 2em;
+  width: 5.8em;
+  font-size: 1.47em;
+  font-weight: bolder;
+}
+
+/* html {
+  background-color: rgb(27, 26, 31);
+} */
+button.property.more.btn.btn-info {
+  margin: 0 auto;
+}
+/*<<<<<<<<<<<<NavigationHeader>>>>>>>>>*/
+.Home {
   text-align: center;
 }
-
-.App-logo {
+nav.NavigationBar.navbar.navbar-expand-lg.navbar-light.bg-light {
+  box-shadow: -5px 5px 9px #3684ac70;
+}
+.Home-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 40vmin;
-  pointer-events: none;
 }
 
-.App-header {
+.Home-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -19,10 +83,12 @@
   color: white;
 }
 
-.App-link {
+.Home-link {
   color: #61dafb;
 }
-
+a.nav-link {
+  margin-left: 20%;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -31,3 +97,75 @@
     transform: rotate(360deg);
   }
 }
+input.searchBoxInputArea.form-control.mr-sm-2 {
+  padding-right: 1.3em;
+  box-shadow: -1px 2px 8px #17a2b88a;
+}
+
+form#searchButtonHeader {
+  margin-left: 34%;
+}
+/*<<<<<<<<<<<<NavigationHeader>>>>>>>>>*/
+
+/* <<<<<<<<<<BuTTons>>>>>>>>>> */
+
+button#PublishPostSubmitButton {
+  box-shadow: -3px -4px 7px #63ab5782;
+  margin-left: 15%;
+  /* margin-top: -5.5%; */
+}
+
+button.searchBoxSubmitButton.btn.btn-outline-info.my-2.my-sm-0 {
+  box-shadow: -3px 2px 9px #17a2b859;
+}
+/* <<<<<<<<<<BuTTons>>>>>>>>>> */
+
+/*<<<<<<<Icons>>>>>>>>>>>*/
+
+.iconsPublishPost {
+  width: 150%;
+  margin-left: 60%;
+  margin-top: -16%;
+}
+
+svg#videoIcon {
+  margin-left: 8%;
+  color: mediumseagreen;
+}
+svg#imagesIcon {
+  margin-left: 8%;
+  color: cornflowerblue;
+}
+
+svg#userTagIcon {
+  margin-left: 2%;
+  color: coral;
+}
+
+.iconsHomePage {
+  margin-left: 21%;
+  margin-top: -3%;
+  width: 115%;
+  box-shadow: -2px 2px 13px #17a2b85c;
+  padding-left: 6px;
+  color: cadetblue;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+svg#matchesRunningIcon {
+  margin-left: 10%;
+}
+svg#pollIcon {
+  margin-left: 10%;
+}
+svg#quizCrownIcon {
+  margin-left: 10%;
+}
+
+hr#belowSubmitLine {
+  margin-left: 18%;
+  width: 120%;
+}
+
+/*<<<<<<<Icons>>>>>>>>>>>*/
